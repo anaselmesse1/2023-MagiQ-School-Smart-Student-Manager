@@ -1,0 +1,54 @@
+[
+    {
+        "firstName": "Anas",
+        "lastName": "Elmessoual",
+        "dob": "2025-06-20",
+        "gender": "1",
+        "email": "elmessoual@gmail.com",
+        "phone": "212637421688",
+        "address": "gg",
+        "idcard": "c559",
+        "grade": "2",
+        "startDate": "2025-06-19",
+        "nationality": "moroccan"
+    },
+    {
+        "firstName": "Anas",
+        "lastName": "nachname",
+        "dob": "2025-06-13",
+        "gender": "2",
+        "email": "lll@lol.com",
+        "phone": "0662000",
+        "address": "gg",
+        "idcard": "c559",
+        "grade": "1",
+        "startDate": "2025-06-14",
+        "nationality": "moroccan"
+    },
+    {
+        "firstName": "Mohamed",
+        "lastName": "El Yahyaoui",
+        "dob": "2004-12-05",
+        "gender": "Male",
+        "email": "mohamed@gmail.com",
+        "phone": "0664260006",
+        "address": "17 rue  13 Oued fes",
+        "idcard": "C99541236",
+        "grade": "IT Level 1",
+        "startDate": "2025-06-20",
+        "nationality": "Algerian"
+    },
+    {
+        "firstName": "Anwar",
+        "lastName": "Hmimer",
+        "dob": "2001-12-11",
+        "gender": "Male",
+        "email": "fakeshiinra3@gmail.com",
+        "phone": "0664260006",
+        "address": "17 rue  13 Oued fes",
+        "idcard": "C258749",
+        "grade": "IT Level 1",
+        "startDate": "2025-06-20",
+        "nationality": "moroccan"
+    }
+]
