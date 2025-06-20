@@ -67,8 +67,6 @@ C:\xampp\htdocs\
 Your structure should look like:
 
 pgsql
-Copy
-Edit
 C:\xampp\htdocs\magiq_school\
 ├── index.html
 ├── admin.php
@@ -78,6 +76,7 @@ C:\xampp\htdocs\magiq_school\
 ├── css.css
 ├── js.js
 └── assets\
+
 
  Step 3: Create MySQL Database
 Go to http://localhost/phpmyadmin
@@ -89,6 +88,8 @@ Copy
 Edit
 magiq_school
 Inside the new database, run this SQL to create the student table:
+
+
 
 sql : 
 
@@ -119,6 +120,8 @@ CREATE TABLE magiq_School (
   nationality VARCHAR(50)
   
 );
+
+
 
 🧷 Step 4: Configure db.php
 submit.php file to match your local XAMPP MySQL credentials:
