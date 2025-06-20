@@ -91,26 +91,39 @@ magiq_school
 Inside the new database, run this SQL to create the student table:
 
 sql : 
+
 CREATE TABLE magiq_School (
+
   id INT AUTO_INCREMENT PRIMARY KEY,
+
   firstName VARCHAR(50),
+  
   lastName VARCHAR(50),
+  
   dob DATE,
+  
   gender VARCHAR(10),
+  
   email VARCHAR(100),
+  
   phone VARCHAR(20),
+  
   address VARCHAR(255),
+  
   idcard VARCHAR(30),
+  
   grade VARCHAR(20),
+  
   startDate DATE,
+  
   nationality VARCHAR(50)
+  
 );
+
 🧷 Step 4: Configure db.php
 submit.php file to match your local XAMPP MySQL credentials:
 
 php
-Copy
-Edit
 <?php
 $servername = "localhost";
 $username = "root";
