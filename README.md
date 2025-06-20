@@ -90,10 +90,8 @@ Edit
 magiq_school
 Inside the new database, run this SQL to create the student table:
 
-sql
-Copy
-Edit
-CREATE TABLE students (
+sql : 
+CREATE TABLE magiq_School (
   id INT AUTO_INCREMENT PRIMARY KEY,
   firstName VARCHAR(50),
   lastName VARCHAR(50),
@@ -108,7 +106,7 @@ CREATE TABLE students (
   nationality VARCHAR(50)
 );
 🧷 Step 4: Configure db.php
-Edit the db.php file to match your local XAMPP MySQL credentials:
+submit.php file to match your local XAMPP MySQL credentials:
 
 php
 Copy
@@ -133,16 +131,12 @@ if ($conn->connect_error) {
 Open your browser and visit:
 
 arduino
-Copy
-Edit
 http://localhost/magiq_school/index.html
 Use the registration form to add students.
 
 Visit:
 
 arduino
-Copy
-Edit
 http://localhost/magiq_school/admin.php
 To view the student list and open any student profile.
 
